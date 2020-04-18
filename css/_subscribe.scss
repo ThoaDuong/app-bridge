@@ -1,0 +1,33 @@
+section{
+    .subscribe{
+        height: 500px;
+        position: static;
+        background: url("../images/home-parallax-1-1.jpg") center/ cover fixed;
+        display: grid;
+        place-items: center;
+        margin-top: 150px;
+        h1{
+            font-size: 48px;
+            color: white;
+            text-align: center;
+        }
+        form{
+            input{
+                background: rgba($color: #000000, $alpha: 0);
+                height: 50px;
+                width: 500px;
+                outline: none;
+                border: 1px solid white;
+                color: white;
+                padding: 30px;
+                &::placeholder{
+                    color: white;
+                }
+            }
+            .btn-subscribe{
+                text-transform: uppercase;
+                padding: 0 40px;
+            }
+        }
+    }
+}

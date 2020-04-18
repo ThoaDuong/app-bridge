@@ -1,0 +1,44 @@
+section{
+    .gallery{
+        background: url("../images/home-background-2.jpg");
+        margin-top: 150px;
+        &__content{
+            h1{
+                font-size: 48px;
+                color: #222222;
+            }
+            p{
+                font-size: 17px;
+                color: #8d8787;
+            }
+        }
+        &__img{
+            margin-bottom: 100px;
+            .block{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-gap: 10px;
+                padding: 10px;
+                &__item1 {
+                    grid-row: 1 / span 2;
+                    grid-column: 1 / span 2;
+                    }
+                &__item8 {
+                    grid-column-end : span 2;
+                }
+                &__item{
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        max-width: 100%;
+                        transition: 0.4s;
+                    }
+                    &:hover img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}

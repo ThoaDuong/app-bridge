@@ -1,0 +1,38 @@
+section{
+    .information{
+        margin-top: 150px;
+        img{
+            max-width: 100%;
+        }
+        h2{
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        p{
+            font-size: 17px;
+            line-height: 2;
+            margin-top: 30px;
+            color: #817d7d;
+            padding-right: 50px;
+        }
+        form{
+            margin-top: 50px;
+            .input{
+                height: 60px;
+                border: 1px solid #dbc8be;
+                border-radius: 0px;
+            }
+            .textarea{
+                border: 1px solid #dbc8be;
+                border-radius: 0px;
+            }
+            .btn-send{
+                height: 60px;
+                background-color: #b67453;
+                color: white;
+                text-transform: uppercase;
+                border-radius: 0px;
+            }
+        }
+    }
+}

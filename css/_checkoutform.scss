@@ -1,0 +1,40 @@
+section{
+    .checkout-form{
+        margin-top: 150px;
+        img{
+            max-width: 100%;
+            width: 70px;
+        }
+        form{
+            .input{
+                height: 50px;
+                border: 1px solid #dbc8be;
+                border-radius: 0px;
+                font-size: 14px;
+            }
+            .textarea{
+                border: 1px solid #dbc8be;
+                border-radius: 0px;
+                font-size: 14px;
+            }
+            .btn-send{
+                height: 50px;
+                line-height: 40px;
+                max-width: 100%;
+                width: 100%;
+                background-color: #b67453;
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                border-radius: 0px;
+                font-size: 14px;
+                &:hover{
+                    text-decoration: none;
+                    color: #b67453;
+                    border: 1px solid #b67453;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

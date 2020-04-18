@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/app-bridge/static/js/main.a3ae9398.chunk.js",
+    "main.js.map": "/app-bridge/static/js/main.a3ae9398.chunk.js.map",
+    "runtime-main.js": "/app-bridge/static/js/runtime-main.342db3bc.js",
+    "runtime-main.js.map": "/app-bridge/static/js/runtime-main.342db3bc.js.map",
+    "static/js/2.c436a768.chunk.js": "/app-bridge/static/js/2.c436a768.chunk.js",
+    "static/js/2.c436a768.chunk.js.map": "/app-bridge/static/js/2.c436a768.chunk.js.map",
+    "index.html": "/app-bridge/index.html",
+    "precache-manifest.fdb84e384e6405d48f051092f3b9cd07.js": "/app-bridge/precache-manifest.fdb84e384e6405d48f051092f3b9cd07.js",
+    "service-worker.js": "/app-bridge/service-worker.js",
+    "static/js/2.c436a768.chunk.js.LICENSE.txt": "/app-bridge/static/js/2.c436a768.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.342db3bc.js",
+    "static/js/2.c436a768.chunk.js",
+    "static/js/main.a3ae9398.chunk.js"
+  ]
+}

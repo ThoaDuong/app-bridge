@@ -1,0 +1,89 @@
+header{
+    menu{
+        nav{
+            background: white;
+            #bridge-nav{
+                font-weight: 600;
+                ul{
+                    li{
+                        padding: 0 20px;
+                        .nav-link{
+                            color: rgb(31, 31, 31);
+                        }
+                        .--active{
+                            color: #b67453;
+                        }
+                        &:not(:last-child):hover .nav-link{
+                            color: #b67453;
+                        }
+                        .cart-block{
+                            position: absolute;
+                            width: 280px;
+                            top: 55px;
+                            right: 40px;
+                            z-index: 10;
+                            display: none;
+                            .card-body{
+                                img{
+                                    max-width: 100%;
+                                }
+                                h6{
+                                    font-size: 14px;
+                                }
+                                p{
+                                    font-size: 12px;
+                                }
+                                .cart-item{
+                                    transition: 0.2s;
+                                    color: rgb(31, 31, 31);
+                                    &:hover{
+                                        color: #b67453;
+                                        text-decoration: none;
+                                    }
+                                    &:hover .col-3{
+                                        transform: scale(1.05);
+                                    }
+                                    &:not(:last-child)::after{
+                                        content: '';
+                                        display: block;
+                                        border-bottom: 1px solid #ccc;
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                            .card-footer{
+                                background-color: #fff;
+                                .cart-footer-a{
+                                    background-color: #b67453;
+                                    color: white;
+                                    padding: 5px 10px;
+                                    font-size: 14px;
+                                    transition: 0.4s;
+                                    &:hover{
+                                        text-decoration: none;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                            &:hover{
+                                display: block;
+                            }
+                        }
+                        .cart-icon{
+                            font-size: 20px;
+                            span{
+                                margin-top: -10px;
+                                position: absolute;
+                                font-size: 10px;
+                            }
+                        }
+                        &:last-child:hover .cart-block{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

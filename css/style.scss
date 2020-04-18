@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif; 
+}
+//Home
+@import 'header';
+@import 'slider';
+@import 'category';
+@import 'gallery';
+@import 'subscribe';
+@import 'lastestproduct';
+@import 'footer';
+@import 'responsive';
+//About
+@import 'title';
+@import 'blog';
+//Contact
+@import 'information';
+//Shop
+@import 'shop';
+//Product
+@import 'detail';
+@import 'related';
+//Cart
+@import 'tablecart';
+//Checkout
+@import 'checkoutform';
