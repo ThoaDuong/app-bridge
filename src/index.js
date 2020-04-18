@@ -11,7 +11,7 @@ import thunk from 'redux-thunk';
 
 const store = createStore(
     appReducers,
-    compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+    compose(applyMiddleware(thunk))
 );
 
 ReactDOM.render(
