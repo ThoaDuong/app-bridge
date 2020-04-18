@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="wrapper">
-                <Router>
+                <Router basename="/">
                     <ScrollToTop/>
                     <Switch>
                         { this.showRoute(routes) }
