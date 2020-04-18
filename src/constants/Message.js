@@ -1,0 +1,7 @@
+export const MS_ADD_SUCCESS = "Add product to cart successfully!"
+export const MS_UPDATE_SUCCESS = "Update product in cart successfully!"
+export const MS_DELETE_SUCCESS = "Delete product in cart successfully!"
+export const MS_EMPTY_CART = "No products in the cart."
+export const MS_PAYMENT_SUCCESS = "The order has been received! Being processed to confirm the order."
+export const MS_INFO_EMPTY = "Information must not be empty!"
+export const MS_CHECK_EMPTY_TO_CHECKOUT = "You can't checkout when there are no items in your shopping cart!"

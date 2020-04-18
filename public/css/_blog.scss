@@ -1,0 +1,23 @@
+section{
+    .blog{
+        margin-top: 100px;
+        .img-blog{
+            max-width: 100%;
+            width: 100%;
+        }
+        .img-sign{
+            max-width: 100%;
+            width: 30%;
+        }
+        h1{
+            font-size: 48px;
+            color: #222222;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 17px;
+            color: #8d8787;
+            line-height: 2;
+        }
+    }
+}
