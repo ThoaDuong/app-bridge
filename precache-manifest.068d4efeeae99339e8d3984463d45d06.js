@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfefdc317b11f6a401c8fe48340f8c57",
+    "revision": "da296a1a2e3b2e0a24e515cdb35f1881",
     "url": "/app-bridge/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-bridge/static/js/2.a8f9fbf2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05aacb53809a1778f8be",
-    "url": "/app-bridge/static/js/main.51a895ca.chunk.js"
+    "revision": "8d975d7b516c93f98619",
+    "url": "/app-bridge/static/js/main.37afa4be.chunk.js"
   },
   {
     "revision": "2b001ba75010d1c935e0",
